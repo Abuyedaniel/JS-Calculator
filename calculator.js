@@ -1,7 +1,7 @@
-var num1 = parseInt(prompt("Number 1: "));
-var opr = prompt("Operator: ");
-var num2 = parseInt(prompt("Number 2: "));
-var result = "";
+num1 = parseInt(prompt("Number 1: "));
+opr = prompt("Operator: ");
+num2 = parseInt(prompt("Number 2: "));
+result = "";
 
 if (opr == "+") {
   result = num1 + num2;
