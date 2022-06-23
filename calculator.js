@@ -3,6 +3,7 @@ var opr = prompt("Operator: ");
 var num2 = parseInt(prompt("Number 2: "));
 var T = "Thank You";
 
+let result;
 if (opr == "+") {
   result = num1 + num2;
 } else if (opr == "-") {
@@ -12,5 +13,5 @@ if (opr == "+") {
 } else if (opr == "/") {
     result = num1 / num2;
 }
-alert (result)
+alert ("Answer:" + " " + result);
 alert (T)
